@@ -3,7 +3,7 @@ namespace Calculos
     /// <summary>
     /// Implementa operações aritméticas básicas
     /// </summary>
-    internal class Aritmetica
+    internal static class Aritmetica
     {
         public enum ConversaoTemperatura
         {
@@ -17,7 +17,7 @@ namespace Calculos
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns>retorna a soma de 2 números inteiros</returns>
-        public int Somar(int a, int b)
+        public static int Somar(int a, int b)
         {
             return a + b;
         }
@@ -28,7 +28,7 @@ namespace Calculos
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns>retorna a subtração de 2 números inteiros</returns>
-        public int Subtrair(int a, int b)
+        public staticint Subtrair(int a, int b)
         {
             return a - b;
         }
@@ -39,7 +39,7 @@ namespace Calculos
         /// <param name="temperatura"></param>
         /// <param name="tipoConversao"></param>
         /// <returns>retorna a temperatura convertida</returns>
-        public double ConverterTemperatura(double temperatura, ConversaoTemperatura tipoConversao)
+        public static double ConverterTemperatura(double temperatura, ConversaoTemperatura tipoConversao)
         {
             switch (tipoConversao)
             {
