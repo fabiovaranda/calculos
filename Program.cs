@@ -13,7 +13,7 @@ namespace Calculos
             Console.WriteLine("Aplicação Cálculos");
             Console.WriteLine($"4 + 2 = {Aritmetica.Somar(4, 2)}");
             Console.WriteLine($"4 - 2 = {Aritmetica.Subtrair(4, 2)}");
-            
+            Console.WriteLine($"4 * 2 = {Aritmetica.Multiplicar(4, 2)}");
             double temperaturaCelsius = Conversoes.ConverterTemperatura(36, Conversoes.ConversaoTemperatura.CelsiusParaFahrenheit);
             double temperaturaFahrenheit = Conversoes.ConverterTemperatura(100, Conversoes.ConversaoTemperatura.FahrenheitParaCelsius);
 
